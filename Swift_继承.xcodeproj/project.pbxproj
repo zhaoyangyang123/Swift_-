@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2331E37F1E0D05C2000A0D48 /* FirstObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2331E37E1E0D05C2000A0D48 /* FirstObject.swift */; };
 		8417E0591CB6883700441724 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8417E0581CB6883700441724 /* AppDelegate.swift */; };
 		8417E05B1CB6883700441724 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8417E05A1CB6883700441724 /* ViewController.swift */; };
 		8417E05E1CB6883700441724 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8417E05C1CB6883700441724 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2331E37E1E0D05C2000A0D48 /* FirstObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstObject.swift; sourceTree = "<group>"; };
 		8417E0551CB6883700441724 /* Swift_继承.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift_继承.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8417E0581CB6883700441724 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8417E05A1CB6883700441724 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				8417E0581CB6883700441724 /* AppDelegate.swift */,
 				8417E05A1CB6883700441724 /* ViewController.swift */,
+				2331E37E1E0D05C2000A0D48 /* FirstObject.swift */,
 				8417E05C1CB6883700441724 /* Main.storyboard */,
 				8417E05F1CB6883700441724 /* Assets.xcassets */,
 				8417E0611CB6883700441724 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				8417E05B1CB6883700441724 /* ViewController.swift in Sources */,
 				8417E0591CB6883700441724 /* AppDelegate.swift in Sources */,
+				2331E37F1E0D05C2000A0D48 /* FirstObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +488,7 @@
 				8417E07F1CB6883700441724 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8417E0801CB6883700441724 /* Build configuration list for PBXNativeTarget "Swift_继承Tests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				8417E0821CB6883700441724 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8417E0831CB6883700441724 /* Build configuration list for PBXNativeTarget "Swift_继承UITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				8417E0851CB6883700441724 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
