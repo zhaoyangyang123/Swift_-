@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2331E37F1E0D05C2000A0D48 /* FirstObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2331E37E1E0D05C2000A0D48 /* FirstObject.swift */; };
+		2331E3811E0D08D2000A0D48 /* baoying365com.cer in Resources */ = {isa = PBXBuildFile; fileRef = 2331E3801E0D08D2000A0D48 /* baoying365com.cer */; };
 		8417E0591CB6883700441724 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8417E0581CB6883700441724 /* AppDelegate.swift */; };
 		8417E05B1CB6883700441724 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8417E05A1CB6883700441724 /* ViewController.swift */; };
 		8417E05E1CB6883700441724 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8417E05C1CB6883700441724 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		2331E37E1E0D05C2000A0D48 /* FirstObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstObject.swift; sourceTree = "<group>"; };
+		2331E3801E0D08D2000A0D48 /* baoying365com.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = baoying365com.cer; sourceTree = "<group>"; };
 		8417E0551CB6883700441724 /* Swift_继承.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift_继承.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8417E0581CB6883700441724 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8417E05A1CB6883700441724 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 		8417E04C1CB6883700441724 = {
 			isa = PBXGroup;
 			children = (
+				2331E3801E0D08D2000A0D48 /* baoying365com.cer */,
 				8417E0571CB6883700441724 /* Swift_继承 */,
 				8417E06C1CB6883700441724 /* Swift_继承Tests */,
 				8417E0771CB6883700441724 /* Swift_继承UITests */,
@@ -196,13 +199,17 @@
 				TargetAttributes = {
 					8417E0541CB6883700441724 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = VB6M4S6PGL;
+						LastSwiftMigration = 0810;
 					};
 					8417E0681CB6883700441724 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0810;
 						TestTargetID = 8417E0541CB6883700441724;
 					};
 					8417E0731CB6883700441724 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0810;
 						TestTargetID = 8417E0541CB6883700441724;
 					};
 				};
@@ -235,6 +242,7 @@
 				8417E0631CB6883700441724 /* LaunchScreen.storyboard in Resources */,
 				8417E0601CB6883700441724 /* Assets.xcassets in Resources */,
 				8417E05E1CB6883700441724 /* Main.storyboard in Resources */,
+				2331E3811E0D08D2000A0D48 /* baoying365com.cer in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,10 +413,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VB6M4S6PGL;
 				INFOPLIST_FILE = "Swift_继承/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Created-By----.Swift---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -416,10 +426,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VB6M4S6PGL;
 				INFOPLIST_FILE = "Swift_继承/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Created-By----.Swift---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -431,6 +443,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Created-By----.Swift---Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift_继承.app/Swift_继承";
 			};
 			name = Debug;
@@ -443,6 +456,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Created-By----.Swift---Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift_继承.app/Swift_继承";
 			};
 			name = Release;
@@ -454,6 +468,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Created-By----.Swift---UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = "Swift_继承";
 			};
 			name = Debug;
@@ -465,6 +480,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Created-By----.Swift---UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = "Swift_继承";
 			};
 			name = Release;
