@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+//////
     override func viewDidLoad() {
         super.viewDidLoad()
         // 一个类可以继承(inherit)另一个类的方法(methods),属性(properties)和其它特性。当一个类继承其它 类时,继承类叫子类(subclass),被继承类叫超类(或父类,superclass)。在 Swift 中,继承是区 分「类」与其它类型的一个基本特征。
